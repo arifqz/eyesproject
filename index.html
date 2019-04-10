@@ -117,6 +117,30 @@
                 <div id="pupil" class="pupil61"></div>
             </div>
         </div>
+        <svg class="squigglyanimation">
+      <defs>
+        <filter id="squiggly-0">
+          <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+        </filter>
+        <filter id="squiggly-1">
+          <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+        </filter>
+        <filter id="squiggly-2">
+          <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+        </filter>
+        <filter id="squiggly-3">
+          <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+        </filter>
+        <filter id="squiggly-4">
+          <feTurbulence  baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+        </filter>
+      </defs> 
+    </svg>
         <script src="https://code.jquery.com/jquery-3.3.1.js"
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
           crossorigin="anonymous"></script>

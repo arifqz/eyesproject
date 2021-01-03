@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
     jQuery("#ellipse60  div.pupil60").jqEye({shape: "ellipse", width:120, height:29});
     jQuery("#ellipse61  div.pupil61").jqEye({shape: "ellipse", width:90, height:10});
   $(window).scroll(function(e){
-    parallaxScroll();
+   
     });
      
     function parallaxScroll(){

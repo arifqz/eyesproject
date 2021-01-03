@@ -58,7 +58,7 @@ div.eye {
     mask-size: contain;
     mask-repeat: no-repeat;
 }
-
+/*
 div.eye:hover {
     filter: drop-shadow(10px 5px 5px #000000);
     transform: scale(1.2, 1.2);
@@ -70,7 +70,7 @@ div.eye:hover {
     transform: scale(.7, .7);
     transition: all 1s linear;
 }
-
+*/
 .smallpupil {
     transform: scale(.7,.7);
 }
